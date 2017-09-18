@@ -1,0 +1,9 @@
+.\app_uart.o: ..\APP\app_uart.c
+.\app_uart.o: ..\APP\app_uart.h
+.\app_uart.o: ..\APP\../HAL/uart.h
+.\app_uart.o: ..\APP\../HAL/../RAL/types.h
+.\app_uart.o: ..\APP\../HAL/../RAL/hw_types.h
+.\app_uart.o: ..\APP\../HAL/../RAL/hw_uart.h
+.\app_uart.o: ..\APP\../HAL/sysctrl.h
+.\app_uart.o: ..\APP\../HAL/../RAL/hw_sysctrl.h
+.\app_uart.o: ..\APP\../HAL/../RAL/hw_gpio.h

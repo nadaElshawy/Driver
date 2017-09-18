@@ -1,0 +1,12 @@
+.\gpio_app_test.o: gpio_app_test.c
+.\gpio_app_test.o: ../APP/app_gpio.h
+.\gpio_app_test.o: ../APP/../HAL/gpio.h
+.\gpio_app_test.o: ../APP/../HAL/../RAL/types.h
+.\gpio_app_test.o: ../APP/../HAL/../RAL/hw_types.h
+.\gpio_app_test.o: ../APP/../HAL/../RAL/hw_gpio.h
+.\gpio_app_test.o: ../APP/../HAL/sysctrl.h
+.\gpio_app_test.o: ../APP/../HAL/../RAL/hw_sysctrl.h
+.\gpio_app_test.o: ../APP/app_uart.h
+.\gpio_app_test.o: ../APP/../HAL/uart.h
+.\gpio_app_test.o: ../APP/../HAL/../RAL/hw_uart.h
+.\gpio_app_test.o: ../SL/NVICInterruptHandler.h

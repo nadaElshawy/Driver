@@ -1,0 +1,65 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x59B4C126)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\gpio_app_test.c)(0x59BFC6FD)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio_app_test.o --omf_browse .\gpio_app_test.crf --depend .\gpio_app_test.d)
+I (../APP/app_gpio.h)(0x59B34333)
+I (../APP/../HAL/gpio.h)(0x59A873EE)
+I (../APP/../HAL/../RAL/types.h)(0x59B05EEF)
+I (../APP/../HAL/../RAL/hw_types.h)(0x59B43D7B)
+I (../APP/../HAL/../RAL/hw_gpio.h)(0x59B44A80)
+I (../APP/../HAL/sysctrl.h)(0x59B81438)
+I (../APP/../HAL/../RAL/hw_sysctrl.h)(0x598E9312)
+I (../APP/app_uart.h)(0x59B82707)
+I (../APP/../HAL/uart.h)(0x59B854AD)
+I (../APP/../HAL/../RAL/hw_uart.h)(0x59B3F5B5)
+I (../SL/NVICInterruptHandler.h)(0x59918610)
+F (..\APP\app_gpio.c)(0x59B44561)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\app_gpio.o --omf_browse .\app_gpio.crf --depend .\app_gpio.d)
+I (..\APP\../APP/app_gpio.h)(0x59B34333)
+I (..\APP\../APP/../HAL/gpio.h)(0x59A873EE)
+I (..\APP\../APP/../HAL/../RAL/types.h)(0x59B05EEF)
+I (..\APP\../APP/../HAL/../RAL/hw_types.h)(0x59B43D7B)
+I (..\APP\../APP/../HAL/../RAL/hw_gpio.h)(0x59B44A80)
+I (..\APP\../APP/../HAL/sysctrl.h)(0x59B81438)
+I (..\APP\../APP/../HAL/../RAL/hw_sysctrl.h)(0x598E9312)
+F (..\APP\app_uart.c)(0x59B82779)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\app_uart.o --omf_browse .\app_uart.crf --depend .\app_uart.d)
+I (..\APP\app_uart.h)(0x59B82707)
+I (..\APP\../HAL/uart.h)(0x59B854AD)
+I (..\APP\../HAL/../RAL/types.h)(0x59B05EEF)
+I (..\APP\../HAL/../RAL/hw_types.h)(0x59B43D7B)
+I (..\APP\../HAL/../RAL/hw_uart.h)(0x59B3F5B5)
+I (..\APP\../HAL/sysctrl.h)(0x59B81438)
+I (..\APP\../HAL/../RAL/hw_sysctrl.h)(0x598E9312)
+I (..\APP\../HAL/../RAL/hw_gpio.h)(0x59B44A80)
+F (..\HAL\gpio.c)(0x59A832AC)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (..\HAL\gpio.h)(0x59A873EE)
+I (..\HAL\../RAL/types.h)(0x59B05EEF)
+I (..\HAL\../RAL/hw_types.h)(0x59B43D7B)
+I (..\HAL\../RAL/hw_gpio.h)(0x59B44A80)
+F (..\HAL\sysctrl.c)(0x59BFC6AB)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\sysctrl.o --omf_browse .\sysctrl.crf --depend .\sysctrl.d)
+I (..\HAL\sysctrl.h)(0x59B81438)
+I (..\HAL\../RAL/types.h)(0x59B05EEF)
+I (..\HAL\../RAL/hw_types.h)(0x59B43D7B)
+I (..\HAL\../RAL/hw_sysctrl.h)(0x598E9312)
+I (..\HAL\../RAL/hw_gpio.h)(0x59B44A80)
+F (..\HAL\uart.c)(0x59BFC2C6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (..\HAL\uart.h)(0x59B854AD)
+I (..\HAL\../RAL/types.h)(0x59B05EEF)
+I (..\HAL\../RAL/hw_types.h)(0x59B43D7B)
+I (..\HAL\../RAL/hw_uart.h)(0x59B3F5B5)
+F (..\SL\NVICInterruptHandler.c)(0x59B85E1C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\nvicinterrupthandler.o --omf_browse .\nvicinterrupthandler.crf --depend .\nvicinterrupthandler.d)
+I (..\SL\NVICInterruptHandler.h)(0x59918610)
+I (..\SL\../HAL/sysctrl.h)(0x59B81438)
+I (..\SL\../HAL/../RAL/types.h)(0x59B05EEF)
+I (..\SL\../HAL/../RAL/hw_types.h)(0x59B43D7B)
+I (..\SL\../HAL/../RAL/hw_sysctrl.h)(0x598E9312)
+I (..\SL\../HAL/../RAL/hw_gpio.h)(0x59B44A80)
+F (..\APP\app_gpio.h)(0x59B34333)()
+F (..\APP\app_uart.h)(0x59B82707)()
+F (..\HAL\gpio.h)(0x59A873EE)()
+F (..\HAL\sysctrl.h)(0x59B81438)()
+F (..\HAL\uart.h)(0x59B854AD)()
+F (..\RAL\hw_gpio.h)(0x59B44A80)()
+F (..\RAL\hw_sysctrl.h)(0x598E9312)()
+F (..\RAL\hw_types.h)(0x59B43D7B)()
+F (..\RAL\hw_uart.h)(0x59B3F5B5)()
+F (..\RAL\types.h)(0x59B05EEF)()
+F (..\SL\NVICInterruptHandler.h)(0x59918610)()
